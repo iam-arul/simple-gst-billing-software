@@ -1,0 +1,64 @@
+.billing-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .MuiInputBase-root {
+        height: 50px;
+    }
+
+    .mandatory {
+        .MuiFormLabel-root::before,
+        .MuiTypography-root:before {
+            font-weight: 500;
+            color: red;
+            content: "* ";
+            margin-right: 5px;
+        }
+    }
+
+    .text-area {
+        .MuiInputBase-root {
+            height: auto;
+        }
+    }
+
+    .date-picker {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    .form-content {
+        margin: 20px;
+        width: 920px;
+        background-color: #fff;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .title {
+        margin-bottom: 20px;
+        margin-left: -24px;
+        margin-right: -24px;
+        background: #4f5567;
+        padding: 20px;
+        margin-top: -24px;
+        color: #fcfcfc;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: flex;
+
+        .MuiSvgIcon-root {
+            margin-right: 10px;
+            color: #ffffff;
+            font-size: 30px;
+        }
+    }
+
+    .MuiFormHelperText-root.error-text {
+        color: red;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+}

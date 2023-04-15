@@ -1,0 +1,26 @@
+.product-container {
+    padding-bottom: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    margin-left: -15px;
+
+    .MuiGrid-item {
+        margin-left: 0;
+    }
+
+    #remove-btn {
+        height: 46px;
+        margin-top: 9px;
+    }
+
+    button:not(#remove-btn) {
+        margin-top: 20px;
+    }
+
+}
+.product-header {
+    margin-top: 25px;
+}
